@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ucit:{boomber:{bed_compass:{x: 0, y: 0, z: 0}}, id: \"compass\", from: \"boomber:bed_compass\", author:[\"boomber\"]}}"
+						}
+					],
+					"name": "minecraft:compass"
+				}
+			]
+		}
+	]
+}

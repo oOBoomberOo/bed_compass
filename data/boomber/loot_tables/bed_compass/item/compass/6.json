@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": [
+								{"text": "Compass [Render]", "italic": false}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData: 8080007, ucit:{id: \"render_compass\", from: \"boomber:bed_compass\", author:[\"boomber\"]}}"
+						}
+					],
+					"name": "minecraft:compass"
+				}
+			]
+		}
+	]
+}
